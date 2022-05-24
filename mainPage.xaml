@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wordul.mainPage">
+    <StackLayout BackgroundColor="Black">
+        <Frame BackgroundColor="White" Padding="13" CornerRadius="0">
+            <Label Text="Wordul" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        </Frame>
+        <Label Text="Choose a Gamemode" TextColor="White" FontSize="Title" HorizontalTextAlignment="Center" Padding="0,350,0,50"/>
+        <Grid ColumnDefinitions="250,45" RowDefinitions="45, auto" HorizontalOptions="CenterAndExpand">
+            <Button x:Name="dailyWord" Text="Daily Word" BackgroundColor="White" TextColor="Black"  Grid.Row="0" Grid.Column="0" Clicked="dailyWord_Clicked"/>
+            <Button x:Name="hintDaily" Text="?" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="1"/>
+            <Button x:Name="Infinite" Text="Infinite" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="0"/>
+            <Button x:Name="infiniteSettings" Text="?" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="1"/>
+        </Grid>
+
+        <Button x:Name="Settings" Text="Settings" BackgroundColor="White" TextColor="Black" HorizontalOptions="Center" WidthRequest="300" Clicked="Settings_Clicked"/>
+
+        <Label Text="Made by: Bai Omar Laye" TextColor="Gray" HorizontalOptions="End" Padding="5,60"/>
+
+    </StackLayout>
+</ContentPage>

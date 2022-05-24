@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wordul.Daily">
+
+    <StackLayout BackgroundColor="Black">
+        <Frame BackgroundColor="White" Padding="13" CornerRadius="0">
+            <Label Text="Wordul" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        </Frame>
+        
+        <Grid x:Name="Board" RowDefinitions="50,50,50,50" ColumnDefinitions="50,50,50,50,50" RowSpacing="25" ColumnSpacing="11" HorizontalOptions="Center" Padding="0,50,0,0">
+            <Label x:Name="Slot1" Text="" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="0" Grid.Column="0"/>
+            <Label x:Name="Slot2" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="0" Grid.Column="1"/>
+            <Label x:Name="Slot3" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="0" Grid.Column="2"/>
+            <Label x:Name="Slot4" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="0" Grid.Column="3"/>
+            <Label x:Name="Slot5" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="0" Grid.Column="4"/>
+            <Label x:Name="Slot6" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="1" Grid.Column="0"/>
+            <Label x:Name="Slot7" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="1" Grid.Column="1"/>
+            <Label x:Name="Slot8" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="1" Grid.Column="2"/>
+            <Label x:Name="Slot9" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="1" Grid.Column="3"/>
+            <Label x:Name="Slot10" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="1" Grid.Column="4"/>
+            <Label x:Name="Slot11" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="2" Grid.Column="0"/>
+            <Label x:Name="Slot12" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="2" Grid.Column="1"/>
+            <Label x:Name="Slot13" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="2" Grid.Column="2"/>
+            <Label x:Name="Slot14" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="2" Grid.Column="3"/>
+            <Label x:Name="Slot15" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="2" Grid.Column="4"/>
+            <Label x:Name="Slot16" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="3" Grid.Column="0"/>
+            <Label x:Name="Slot17" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="3" Grid.Column="1"/>
+            <Label x:Name="Slot18" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="3" Grid.Column="2"/>
+            <Label x:Name="Slot19" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="3" Grid.Column="3"/>
+            <Label x:Name="Slot20" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="3" Grid.Column="4"/>
+        </Grid>
+
+        <Button x:Name="A" Text="Aaaaaaaa" Clicked="A_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
