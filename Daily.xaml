@@ -8,8 +8,8 @@
             <Label Text="Wordul" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
         </Frame>
         
-        <Grid RowDefinitions="50,50,50,50" ColumnDefinitions="50,50,50,50,50" RowSpacing="25" ColumnSpacing="11" HorizontalOptions="Center" Padding="0,50,0,0">
-            <Label x:Name="Slot1" Text="" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="0" Grid.Column="0"/>
+        <Grid x:Name="zeBoard" RowDefinitions="50,50,50,50" ColumnDefinitions="50,50,50,50,50" RowSpacing="25" ColumnSpacing="11" HorizontalOptions="Center" Padding="0,50,0,0">
+            <Label x:Name="Slot1" Text="" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-7,0,0" Grid.Row="0" Grid.Column="0"/>
             <Label x:Name="Slot2" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="0" Grid.Column="1"/>
             <Label x:Name="Slot3" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="0" Grid.Column="2"/>
             <Label x:Name="Slot4" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="0" Grid.Column="3"/>
