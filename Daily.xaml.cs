@@ -15,7 +15,7 @@ namespace Wordul
                 {Slot16.Text,Slot17.Text,Slot18.Text,Slot19.Text,Slot20.Text}
             }; //putting all the labels text into arrays
 
-
+            //Cells[0] = A;
         }
         private void boxesToArrays() {
 
@@ -23,14 +23,13 @@ namespace Wordul
 
         private void A_Clicked(object sender, System.EventArgs e)
         {
-            InitializeComponent();
-            string[] Cells = new string[] {
-                Slot1.Text,Slot2.Text,Slot3.Text,Slot4.Text,Slot5.Text
-            }; //putting all the labels text into arrays
-
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 5; i++)
             {
-                Cells(i-1) = "A";
+                if (Slot1.Text == "")
+                {
+                    Slot1.Text = "A";
+                }
+
             }
         }
     }
