@@ -30,6 +30,38 @@
             <Label x:Name="Slot19" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="3" Grid.Column="3"/>
             <Label x:Name="Slot20" FontSize="40" HorizontalTextAlignment="Center" BackgroundColor="Gray" Padding="0,-10,0,0" Grid.Row="3" Grid.Column="4"/>
         </Grid>
+        <Grid x:Name="KB" RowDefinitions="40,40,40"  RowSpacing="10" ColumnSpacing="5" HorizontalOptions="Fill" VerticalOptions="EndAndExpand" Padding="10,14,10,20" BackgroundColor="Black">
+            <Button x:Name="btnQ" Text="Q" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="0" Clicked="Q_Clicked"/>
+            <Button x:Name="btnW" Text="W" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="1" Clicked="W_Clicked"/>
+            <Button x:Name="btnE" Text="E" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="2" Clicked="E_Clicked"/>
+            <Button x:Name="btnR" Text="R" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="3" Clicked="R_Clicked"/>
+            <Button x:Name="btnT" Text="T" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="4"Clicked="T_Clicked"/>
+            <Button x:Name="btnY" Text="Y" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="5" Clicked="Y_clicked"/>
+            <Button x:Name="btnU" Text="U" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="6" Clicked="U_Clicked"/>
+            <Button x:Name="btnI" Text="I" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="7" Clicked="I_Clicked"/>
+            <Button x:Name="btnO" Text="O" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="8" Clicked="O_Clicked"/>
+            <Button x:Name="btnP" Text="P" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="0" Grid.Column="9" Clicked="P_Clicked"/>
+
+            <Button x:Name="btnA" Text="A" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="0" Clicked="A_clicked"/>
+            <Button x:Name="btnS" Text="S" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="1" Clicked="S_Clicked"/>
+            <Button x:Name="btnD" Text="D" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="2" Clicked="D_Clicked"/>
+            <Button x:Name="btnF" Text="F" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="3" Clicked="F_Clicked"/>
+            <Button x:Name="btnG" Text="G" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="4" Clicked="G_clicked"/>
+            <Button x:Name="btnH" Text="H" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="5" Clicked="H_Clicked"/>
+            <Button x:Name="btnJ" Text="J" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="6" Clicked="J_Clicked"/>
+            <Button x:Name="btnK" Text="K" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="7" Clicked="K_Clicked"/>
+            <Button x:Name="btnL" Text="L" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="1" Grid.Column="8" Clicked="L_Clicked"/>
+
+            <Button x:Name="btnEnter" Text="Enter" FontSize="10" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="2" Grid.Column="0" Clicked="Enter_Clicked"/>
+            <Button x:Name="btnZ" Text="Z" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="2" Grid.Column="1" Clicked="Z_Clicked"/>
+            <Button x:Name="btnX" Text="X" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="2" Grid.Column="2" Clicked="X_Clicked"/>
+            <Button x:Name="btnC" Text="C" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="2" Grid.Column="3" Clicked="C_Clicked"/>
+            <Button x:Name="btnV" Text="V" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="2" Grid.Column="4" Clicked="V_Clicked"/>
+            <Button x:Name="btnB" Text="B" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="2" Grid.Column="5" Clicked="B_Clicked"/>
+            <Button x:Name="btnN" Text="N" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="2" Grid.Column="6" Clicked="N_Clicked"/>
+            <Button x:Name="btnM" Text="M" FontSize="30" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="2" Grid.Column="7" Clicked="M_Clicked"/>
+            <Button x:Name="btnErase" Text="Erase" FontSize="10" HorizontalOptions="CenterAndExpand" Padding="0,-2,0,0" BackgroundColor="White" TextColor="Black" Grid.Row="2" Grid.Column="8" Clicked="Erase_Clicked"/>
+        </Grid>
 
         <Button x:Name="A" Text="Aaaaaaaa" Clicked="A_Clicked"/>
 
