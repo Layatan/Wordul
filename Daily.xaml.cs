@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using System;
+using System.IO;
 
 namespace Wordul
 {
@@ -9,12 +10,12 @@ namespace Wordul
         public int x = 0;
         public string[,] boardCell = new string[4, 5];
         public string ans = "DRAWS";
-        //public string[] WordsList = File.ReadAllLines("FullWordsList.txt");
+        public string[] WordsList;// = File.ReadAllLines("FullWordsList.txt");
         public Daily()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this,false);
-
+            WordsList = File.ReadAllLines("FullWordsList.txt");
             //Random Rnd = new Random(); //abdoulaye 
             //ans = WordsList[Rnd.Next(0, WordsList.Length + 1)];
             //Console.WriteLine(ans);
