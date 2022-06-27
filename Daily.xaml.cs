@@ -52,7 +52,7 @@ namespace Wordul
                 {
                     Lines[y, i].BackgroundColor = Color.Yellow;
                 }
-            }
+            }//he
 
             if (score == 5)
             {
