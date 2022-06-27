@@ -15,6 +15,8 @@ namespace Wordul
         public mainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+
         }
 
         private void Settings_Clicked(object sender, EventArgs e)

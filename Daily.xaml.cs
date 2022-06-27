@@ -13,7 +13,7 @@ namespace Wordul
         public Daily()
         {
             InitializeComponent();
-            //NavigationPage.HasNavigationBarProperty = false;
+            NavigationPage.SetHasNavigationBar(this,false);
 
             //Random Rnd = new Random(); //abdoulaye 
             //ans = WordsList[Rnd.Next(0, WordsList.Length + 1)];
@@ -256,7 +256,7 @@ namespace Wordul
 
         private void Back_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new mainPage());
+            Navigation.PopAsync();
         }
     }
 }
