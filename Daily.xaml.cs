@@ -15,10 +15,12 @@ namespace Wordul
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this,false);
+            
             WordsList = File.ReadAllLines("FullWordsList.txt");
-            //Random Rnd = new Random(); //abdoulaye 
-            //ans = WordsList[Rnd.Next(0, WordsList.Length + 1)];
-            //Console.WriteLine(ans);
+            
+            Random Rnd = new Random(); //abdoulaye 
+            ans = WordsList[Rnd.Next(0, WordsList.Length + 1)];
+            Console.WriteLine(ans);
 
         }
 
